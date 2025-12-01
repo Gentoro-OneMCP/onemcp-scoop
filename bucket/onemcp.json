@@ -6,13 +6,13 @@
 
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/v0.1.0/onemcp-win-amd64.zip",
-      "hash": "<SHA256_FOR_WINDOWS_AMD64>",
+      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.1/onemcp-windows-amd64.zip",
+      "hash": "0f06f3fb5187f22f3bc3bbd6dbb76b62280ec213dc117f5a28bbc026172507da",
       "bin": "onemcp.exe"
     },
     "arm64": {
-      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/v0.1.0/onemcp-win-arm64.zip",
-      "hash": "<SHA256_FOR_WINDOWS_ARM64>",
+      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.1/onemcp-windows-arm64.zip",
+      "hash": "2d71dc4e376323cf781cec94421e8f07ec0c7c1763f50296c67bf771b0dd2c6a",
       "bin": "onemcp.exe"
     }
   },
@@ -28,18 +28,18 @@
   ],
 
   "checkver": {
-    "github": "https://github.com/Gentoro-OneMCP/onemcp"
+    "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/latest",
+    "regex": "tag/cli-v([\\d.]+)"
   },
 
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/v$version/onemcp-win-amd64.zip"
+        "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v$version/onemcp-windows-amd64.zip"
       },
       "arm64": {
-        "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/v$version/onemcp-win-arm64.zip"
+        "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v$version/onemcp-windows-arm64.zip"
       }
     }
   }
 }
-
