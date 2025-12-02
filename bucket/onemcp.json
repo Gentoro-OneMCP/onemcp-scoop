@@ -7,12 +7,12 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.1/onemcp-windows-amd64.zip",
-      "hash": "0f06f3fb5187f22f3bc3bbd6dbb76b62280ec213dc117f5a28bbc026172507da",
+      "hash": "ed6074fcb2f0252c657ae6914821a0fca9fba34380920f66fe7e379be3cb005a",
       "bin": "onemcp.exe"
     },
     "arm64": {
       "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.1/onemcp-windows-arm64.zip",
-      "hash": "2d71dc4e376323cf781cec94421e8f07ec0c7c1763f50296c67bf771b0dd2c6a",
+      "hash": "ee75a473313c54b1fbc48fa950e8829537581dfede3e6f8f1dc3d7095c62a5de",
       "bin": "onemcp.exe"
     }
   },
