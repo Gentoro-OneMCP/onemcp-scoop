@@ -1,18 +1,18 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "CLI for Gentoro OneMCP - Connect APIs to AI models via Model Context Protocol",
   "homepage": "https://github.com/Gentoro-OneMCP/onemcp",
   "license": "Apache-2.0",
 
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.3/onemcp-windows-amd64.zip",
-      "hash": "69c6136c9c7494dcd865e2418ec283908626e49f90d09c39925c4446d3002ac3",
+      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.5/onemcp-windows-amd64.zip",
+      "hash": "3b499c93d62682ef9e3b3acd16d230b08559294687d444c26756ee367a1fbdac",
       "bin": "onemcp.exe"
     },
     "32bit": {
-      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.3/onemcp-windows-386.zip",
-      "hash": "d3d29fab09458dc5b3eb22e7860865e040ad430d1793223aa749d9d63bfe347c",
+      "url": "https://github.com/Gentoro-OneMCP/onemcp/releases/download/cli-v0.0.5/onemcp-windows-386.zip",
+      "hash": "fc0e8f9e6358406903614393dc5411bab47ec1803d14b36e6182a2c911abdc71",
       "bin": "onemcp.exe"
     }
   },
